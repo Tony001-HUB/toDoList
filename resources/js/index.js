@@ -1,1 +1,5 @@
-import tasks from ".//dataBase/db.js";
+import initCurrentList from "./components/makeCurrentList.js";
+import initDoneList from "./components/makeDoneList.js";
+
+initCurrentList();
+initDoneList();
