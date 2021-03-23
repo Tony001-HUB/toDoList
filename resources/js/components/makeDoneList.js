@@ -5,6 +5,7 @@ import generateId from "../components/idGenerator.js";
 export default function initDoneList() {
     getData('db.json')
     .then(data => data.done.forEach(element => {
+        console.log(element.taskText);
         document.querySelector("#completedTasks").insertAdjacentHTML('beforeend',`
         <li class="list-group-item d-flex w-100 mb-2" id="${"currentTasks__"+generateId()}">
             <div class="w-100 mr-2">

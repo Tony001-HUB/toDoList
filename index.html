@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="stylesheet" href="./resources/css/index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/aa7a31f950.js" crossorigin="anonymous"></script>
     <style>
@@ -18,7 +19,7 @@
 <body>
     <div class="container-fluid wrapper">
         <nav class="navbar navbar-light bg-light">
-            <h1>MyToDoList</h1>
+            <h1>MyToDoList</p></h1>
             <div class="d-flex">
                 <button type="button" class="btn btn-primary mx-2"><i class="fas fa-sort-numeric-up-alt"></i></button>
                 <button type="button" class="btn btn-primary"><i class="fas fa-sort-numeric-up"></i></button>
@@ -40,12 +41,12 @@
         </nav>
         <div class="row justify-content-center">
             <div class="col-10">
-                <h3 class="my-2">ToDo</h3>
+                <h3 class="my-2">ToDo:  <span id="toDoCount"></span></h3>
                 <ul class="list-group flex-wrap justify-content-between" id="currentTasks">
 
                 </ul>
                 <hr>
-                <h3 class="my-2">Comleted</h3>
+                <h3 class="my-2">Comleted: <span id="comletedCount"></span></h3>
                 <ul class="list-group flex-wrap justify-content-between" id="completedTasks">
 
                 </ul>
@@ -68,13 +69,13 @@
                         <div class="form-group row">
                             <label for="inputTitle" class="col-sm-2 col-form-label">Title</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="inputTitle" placeholder="Title" required>
+                                <input type="text" class="form-control" id="inputTitle" placeholder="Title" name="taskTitle" required>
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="inputText" class="col-sm-2 col-form-label">Text</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="inputText" placeholder="Text" required>
+                                <input type="text" class="form-control" id="inputText" placeholder="Text" name="taskText" required>
                             </div>
                         </div>
                         <fieldset class="form-group">
