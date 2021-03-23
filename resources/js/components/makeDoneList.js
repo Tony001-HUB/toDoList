@@ -1,4 +1,4 @@
-import getData from "../services/getData.js";
+import {getData} from "../services/getData.js";
 import getDate from "../components/getDate.js";
 import generateId from "../components/idGenerator.js";
 
@@ -12,7 +12,7 @@ export default function initDoneList() {
                 <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">${element.taskTitle}</h5>
                     <div>
-                        <small class="mr-2">${element.taskPriority}</small>
+                        <small class="mr-2">${element.gridRadios}</small>
                         <small>${getDate()}</small>
                         <small>${element.taskId}</small>
                     </div>

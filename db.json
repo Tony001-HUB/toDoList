@@ -1,28 +1,36 @@
 {
-  "current": [ {
-      "taskTitle": "test1",
-      "taskText": "Hello world",
-      "taskId": "",
-      "taskPriority": "high priority"
-      },
-      {
-      "taskTitle": "test1",
-      "taskText": "Hello world",
-      "taskId": "",
-      "taskPriority": "medium priority"
-      },
-      {
-      "taskTitle": "test1",
-      "taskText": "Hello world",
-      "taskId": "",
-      "taskPriority": "low priority"
-      }
+  "current": [
+    {
+      "taskTitle": "segseg",
+      "taskText": "esgesgesg",
+      "gridRadios": "Low",
+      "id": 1
+    },
+    {
+      "taskTitle": "sdvsbfdbf",
+      "taskText": "324234",
+      "gridRadios": "High",
+      "id": 2
+    },
+    {
+      "taskTitle": "ewgesfseg",
+      "taskText": "esvsv",
+      "gridRadios": "Low",
+      "id": 3
+    },
+    {
+      "taskTitle": "sdvsdv",
+      "taskText": "hhhh",
+      "gridRadios": "Medium",
+      "id": 4
+    }
   ],
-  "done": [ {
-      "taskTitle": "test4",
-      "taskText": "done task yesss",
-      "taskId": "",
-      "taskPriority": "high priority"
-      }
+  "done": [
+    {
+      "taskTitle": "sdvsdv",
+      "taskText": "dsvsdv",
+      "gridRadios": "Low",
+      "id": 1
+    }
   ]
 }

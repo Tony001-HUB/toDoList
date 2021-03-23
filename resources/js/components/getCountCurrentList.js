@@ -1,4 +1,4 @@
-import getData from "../services/getData.js";
+import {getData} from "../services/getData.js";
 
 export default function getCountCurrentList() {
     getData('db.json')

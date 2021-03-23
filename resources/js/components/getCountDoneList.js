@@ -1,4 +1,4 @@
-import getData from "../services/getData.js";
+import {getData} from "../services/getData.js";
 
 export default function getCountDoneList() {
     getData('db.json')
