@@ -1,5 +1,4 @@
-import {postData} from "../services/getData.js"
-import initToDoList from "../index.js"
+import {postData} from "../services/postData.js"
 
 export default function bindPostData(form){
         form.addEventListener('submit', (event) =>{

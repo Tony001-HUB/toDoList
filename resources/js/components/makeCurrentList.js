@@ -1,12 +1,11 @@
 import {getData} from "../services/getData.js";
 import getDate from "../components/getDate.js";
-import generateId from "../components/idGenerator.js";
 
 export default function createCurrentList() {
     getData('db.json')
     .then(data => data.current.forEach(element => {
         document.querySelector("#currentTasks").insertAdjacentHTML('beforeend',`
-        <li class="list-group-item d-flex w-100 mb-2" id="${"currentTasks__"+generateId()}">
+        <li class="list-group-item d-flex w-100 mb-2">
             <div class="w-100 mr-2">
                 <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">${element.taskTitle}</h5>

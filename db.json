@@ -1,35 +1,29 @@
 {
   "current": [
     {
-      "taskTitle": "segseg",
-      "taskText": "esgesgesg",
+      "taskTitle": "Task 2",
+      "taskText": "About React",
       "gridRadios": "Low",
       "id": 1
     },
     {
-      "taskTitle": "sdvsbfdbf",
-      "taskText": "324234",
+      "taskTitle": "Task 3",
+      "taskText": "About Angular",
       "gridRadios": "High",
       "id": 2
     },
     {
-      "taskTitle": "ewgesfseg",
-      "taskText": "esvsv",
-      "gridRadios": "Low",
-      "id": 3
-    },
-    {
-      "taskTitle": "sdvsdv",
-      "taskText": "hhhh",
+      "taskTitle": "1111",
+      "taskText": "1111",
       "gridRadios": "Medium",
-      "id": 4
+      "id": 3
     }
   ],
   "done": [
     {
-      "taskTitle": "sdvsdv",
-      "taskText": "dsvsdv",
-      "gridRadios": "Low",
+      "taskTitle": "Task1",
+      "taskText": "About js",
+      "gridRadios": "High",
       "id": 1
     }
   ]
