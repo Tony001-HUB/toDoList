@@ -1,4 +1,4 @@
-export default function getDate() {
+function getDate() {
     let d = new Date();
     let curr_date = d.getDate();
     let curr_month = d.getMonth() + 1;
@@ -6,3 +6,5 @@ export default function getDate() {
     let data = curr_year + "-" + curr_month + "-" + curr_date;
     return data;
 }
+
+export {getDate}

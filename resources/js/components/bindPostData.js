@@ -11,6 +11,7 @@ export default function bindPostData(form){
         .then(data => {
             console.log(data);      
         }).catch(() => {
+        
         }).finally(() =>{
             form.reset();
         });
