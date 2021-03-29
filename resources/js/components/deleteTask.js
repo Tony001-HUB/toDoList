@@ -5,7 +5,7 @@ export default function deleteTask() {
         item.addEventListener('click', event =>{
             console.log(event);
             const deleteItem = item.parentElement.parentElement.parentElement;
-            deleteData(`http://localhost:3000/current/${deleteItem.id - 1}`);
+            deleteData(`http://localhost:3000/current/${deleteItem.id}`);
             deleteItem.remove();
         })
     });
