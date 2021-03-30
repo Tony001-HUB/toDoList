@@ -1,54 +1,48 @@
 {
   "current": [
     {
-      "taskTitle": "sfbfdbfdb",
-      "taskText": "fdbfdbfdb",
+      "taskTitle": "444",
+      "taskText": "555",
       "gridRadios": "Medium",
       "id": 3
     },
     {
-      "taskTitle": "Angular",
-      "taskText": "...",
-      "gridRadios": "High",
-      "id": 4
-    },
-    {
-      "taskTitle": "React",
-      "taskText": "555",
+      "taskTitle": "js",
+      "taskText": "sdvsdv",
       "gridRadios": "Medium",
       "id": 5
     },
     {
-      "taskTitle": "js",
-      "taskText": "888",
-      "gridRadios": "High",
+      "taskTitle": "121",
+      "taskText": "dsvsdv",
+      "gridRadios": "Low",
       "id": 6
     },
     {
-      "taskTitle": "jsx",
-      "taskText": "555",
+      "taskTitle": "sdvsdv",
+      "taskText": "sdvsdvd",
       "gridRadios": "Medium",
       "id": 7
     }
   ],
   "done": [
     {
-      "taskTitle": "Task1",
-      "taskText": "About js",
-      "gridRadios": "High",
-      "id": 1
-    },
-    {
-      "taskTitle": "Task 0",
-      "taskText": "About .....",
-      "gridRadios": "High",
+      "taskTitle": "222",
+      "taskText": "333",
+      "gridRadios": "Medium",
       "id": 2
     },
     {
-      "taskTitle": "121",
-      "taskText": "sdvsdv",
-      "gridRadios": "High",
-      "id": 3
+      "taskTitle": "111",
+      "taskText": "222",
+      "gridRadios": "Medium",
+      "id": 1
+    },
+    {
+      "taskTitle": "555",
+      "taskText": "666",
+      "gridRadios": "Medium",
+      "id": 4
     }
   ]
 }
