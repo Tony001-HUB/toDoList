@@ -1,47 +1,31 @@
 {
-  "current": [
+  "task": [
     {
-      "taskTitle": "444",
-      "taskText": "555",
+      "taskTitle": "js",
+      "taskText": "sdvsdv",
+      "IsFinished": "true",
+      "gridRadios": "Low",
+      "id": 1
+    },
+    {
+      "taskTitle": "Angular",
+      "taskText": "sdvsdvd",
+      "IsFinished": "true",
+      "gridRadios": "Low",
+      "id": 2
+    },
+    {
+      "taskTitle": "React",
+      "taskText": "dsvsdv",
+      "IsFinished": "true",
       "gridRadios": "Medium",
       "id": 3
     },
     {
-      "taskTitle": "js",
-      "taskText": "sdvsdv",
-      "gridRadios": "Medium",
-      "id": 5
-    },
-    {
       "taskTitle": "121",
-      "taskText": "dsvsdv",
-      "gridRadios": "Low",
-      "id": 6
-    },
-    {
-      "taskTitle": "sdvsdv",
       "taskText": "sdvsdvd",
-      "gridRadios": "Medium",
-      "id": 7
-    }
-  ],
-  "done": [
-    {
-      "taskTitle": "222",
-      "taskText": "333",
-      "gridRadios": "Medium",
-      "id": 2
-    },
-    {
-      "taskTitle": "111",
-      "taskText": "222",
-      "gridRadios": "Medium",
-      "id": 1
-    },
-    {
-      "taskTitle": "555",
-      "taskText": "666",
-      "gridRadios": "Medium",
+      "IsFinished": "true",
+      "gridRadios": "High",
       "id": 4
     }
   ]

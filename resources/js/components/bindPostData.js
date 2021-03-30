@@ -6,14 +6,7 @@ export default function bindPostData(form){
 
         const formData = new FormData(form); 
         const json = JSON.stringify(Object.fromEntries(formData.entries()));
-
-        postData('http://localhost:3000/current', json)
-        .then(data => {
-            console.log(data);      
-        }).catch(() => {
         
-        }).finally(() =>{
-            form.reset();
-        });
+        postData('http://localhost:3000/task', json)
     });
 }
