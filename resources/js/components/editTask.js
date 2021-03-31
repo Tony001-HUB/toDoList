@@ -52,9 +52,10 @@ function getTaskData(item) {
 function changeTaskData() {
     document.querySelectorAll('.send').forEach((item) => {
         item.addEventListener('click', event =>{ 
-            const comletedItem = item.parentElement.parentElement.parentElement; 
+            const comletedItem = item.parentElement.parentElement.parentElement.parentElement; 
             getData('db.json') 
             .then(gData => {
+                console.log(comletedItem);
                 const result = gData.task.filter(item => item.id == comletedItem.id);
                 console.log(result[0]); 
                 putData(`http://localhost:3000/task/${comletedItem.id}`, JSON.stringify({
