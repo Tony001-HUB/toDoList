@@ -4,3 +4,52 @@
 #toDoCount {
     background-color: red;
 }
+
+.contacts{
+    display: none;
+    position: relative;
+}
+
+.contacts__input{
+    color:rgb(0, 0, 0);
+}
+
+.contacts__text{
+    font-size: 15px;
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.702);
+    line-height: 1.6;
+    padding: 31px 0px 65px 32px;
+    margin-bottom: 9px;
+}
+
+.show-edit-modal {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+    position: absolute;
+    right: 475px;
+    z-index:37;
+}
+
+.none-edit-modal {
+    display: none;
+    position: relative;
+}
+
+.main-container{
+    position:absolute;
+    z-index:36;
+}
+
+.darkening-background{
+    background: rgba(173, 172, 172, 0.8);
+    z-index:36;
+}
+
+.canсel {
+    margin-left: 60px;
+}

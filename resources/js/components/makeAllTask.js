@@ -22,6 +22,21 @@ function getCurrentTasks() {
                 </div>
                 <p class="mb-1 w-100">${element.taskText}</p>
             </div>
+        <div class="contacts">
+            <form class="contacts__action-form">
+                <div>
+                    <input class="contacts__input contacts__input-title" type="text" name="taskTitle" placeholder="Title">
+                </div>
+                <div>
+                    <input class="contacts__input contacts__input-text" type="text" name="taskText" placeholder="Text*">
+                </div>
+                <div>
+                    <input class="contacts__input contacts__input-priority" type="text" name="gridRadios" placeholder="Priority">
+                </div>
+                <a class="btn btn-primary send">send</a>
+                <a class="btn btn-primary canсel">canсel</a>
+            </form>
+        </div>
             <div class="dropdown m-2 dropleft">
                 <button class="btn btn-secondary h-100 init-work-with-task-btn" type="button" id="dropdownMenuItem1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fas fa-ellipsis-v" aria-hidden="true"></i>
