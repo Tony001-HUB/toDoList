@@ -17,7 +17,7 @@ function getCurrentTasks() {
                     <h5 class="mb-1">${element.taskTitle}</h5>
                     <div>
                         <small class="mr-2">${element.gridRadios}</small>
-                        <small>${getDate()}</small>
+                        <small>${element.date}</small>
                     </div>
                 </div>
                 <p class="mb-1 w-100">${element.taskText}</p>
@@ -35,6 +35,9 @@ function getCurrentTasks() {
                     <option value="Medium">Medium</option>
                     <option value="High">High</option>
                 </select>
+                <div>
+                <input type="date" class="contacts__input contacts__input-date" min="2021-04-01" max="2040-04-01">
+                </div>
                 <div class = "btn_wrapper">
                 <a class="btn btn-primary send">send</a>
                 <a class="btn btn-primary canсel">canсel</a>
@@ -67,7 +70,7 @@ function getDoneTasks() {
                     <h5 class="mb-1">${element.taskTitle}</h5>
                     <div>
                         <small class="mr-2">${element.gridRadios}</small>
-                        <small>${getDate()}</small>
+                        <small>${element.date}</small>
                     </div>
                 </div>
                 <p class="mb-1 w-100">${element.taskText}</p>
@@ -96,8 +99,6 @@ function getDoneTasks() {
                     <i class="fas fa-ellipsis-v" aria-hidden="true"></i>
                 </button>
                 <div class="dropdown-menu p-2 flex-column" aria-labelledby="dropdownMenuItem1">
-                    <button type="button" class="btn btn-success w-100">Complete</button>
-                    <button type="button" class="btn btn-info w-100 my-2">Edit</button>
                     <button type="button" class="btn btn-delete btn-danger w-100">Delete</button>
                 </div>
             </div>

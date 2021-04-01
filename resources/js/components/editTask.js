@@ -7,6 +7,7 @@ export default function editTask() {
             getTaskData(item);
             scrollIntoEditTask();
             renderDarkeningBackground();
+            event.preventDefault();
         })
     })
     canсelEditTask();
@@ -46,16 +47,17 @@ function getTaskData(item) {
         document.querySelector('.contacts__input-title').value  = result[0].taskTitle;
         document.querySelector('.contacts__input-text').value  = result[0].taskText;
         document.querySelector('.contacts__input-priority').value  = result[0].gridRadios;
+        document.querySelector('.contacts__input-date').value = result[0].date;
     })
 }
 
 function changeTaskData() {
     document.querySelectorAll('.send').forEach((item) => {
         item.addEventListener('click', event =>{ 
-            const comletedItem = item.parentElement.parentElement.parentElement.parentElement; 
+            event.preventDefault();
+            const comletedItem = item.parentElement.parentElement.parentElement.parentElement;
             getData('db.json') 
             .then(gData => {
-                console.log(comletedItem);
                 const result = gData.task.filter(item => item.id == comletedItem.id);
                 console.log(result[0]); 
                 putData(`http://localhost:3000/task/${comletedItem.id}`, JSON.stringify({
@@ -63,6 +65,7 @@ function changeTaskData() {
                     taskText: document.querySelector('.contacts__input-text').value,
                     IsFinished: result[0].IsFinished,
                     gridRadios: document.querySelector('.contacts__input-priority').value,
+                    date: document.querySelector('.contacts__input-date').value,
                     id: comletedItem.id
                     }));
                 document.querySelector('.darkening-background').remove();
