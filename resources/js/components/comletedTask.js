@@ -16,6 +16,7 @@ export default function comletedTask() {
                     IsFinished: "true",
                     gridRadios: result[0].gridRadios,
                     date: result[0].date,
+                    color: result[0].color,
                     id: comletedItem.id
                     }));
                 comletedItem.remove(); 

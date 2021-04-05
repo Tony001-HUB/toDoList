@@ -1,28 +1,58 @@
 {
   "task": [
     {
-      "taskTitle": "Angular333",
-      "taskText": "hhhh33",
+      "taskTitle": ".....",
+      "taskText": "55599\\",
       "IsFinished": "true",
-      "gridRadios": "High",
-      "date": "2021-04-09",
+      "gridRadios": "Medium",
+      "date": "2021-04-18",
+      "color": "#218e0b",
       "id": 1
     },
     {
-      "taskTitle": "Angular44",
-      "taskText": "sdvsdvd11",
-      "IsFinished": "false",
-      "gridRadios": "Medium",
-      "date": "2021-04-12",
-      "id": 2
+      "taskTitle": "sdvsdv",
+      "taskText": "55__58",
+      "IsFinished": "true",
+      "gridRadios": "High",
+      "date": "2021-04-30",
+      "color": "#ae2da4",
+      "id": 4
     },
     {
-      "taskTitle": "js",
-      "taskText": "55__58",
+      "taskTitle": "sdvsdv",
+      "taskText": "555",
       "IsFinished": "false",
-      "date": "2021-04-25",
+      "date": "2021-04-23",
+      "color": "#2d4d80",
+      "gridRadios": "Medium",
+      "id": 5
+    },
+    {
+      "taskTitle": "ФФФФФФФФФФФФФ",
+      "taskText": "sdvsdv",
+      "IsFinished": "true",
       "gridRadios": "High",
-      "id": 3
+      "date": "2021-04-30",
+      "color": "#cce31c",
+      "id": 6
+    },
+    {
+      "taskTitle": "sdvsdv",
+      "taskText": ".....",
+      "IsFinished": "false",
+      "gridRadios": "Low",
+      "date": "2021-04-06",
+      "color": "#314baa",
+      "id": 7
+    },
+    {
+      "taskTitle": "121",
+      "taskText": "555",
+      "IsFinished": "false",
+      "date": "2021-04-18",
+      "color": "#7e1616",
+      "gridRadios": "High",
+      "id": 8
     }
   ]
 }

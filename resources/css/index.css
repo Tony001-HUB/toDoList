@@ -6,6 +6,10 @@
 }
 
 .contacts{
+    position: relative;
+}
+
+.contacts_none {
     display: none;
     position: relative;
 }
@@ -60,4 +64,52 @@
 
 .contacts__input-date {
     width: 100%;
+}
+
+.contacts__input-color {
+    width: 100%;
+}
+
+.dark {
+    border: 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    background-color:rgb(41, 36, 36);
+    color: white;
+}
+
+.light {
+    border: 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    background-color:rgb(250, 246, 246);
+    color: black;
+}
+
+.default {
+    border: 10px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.darkThemeBody {
+    background-color:rgba(17, 16, 16, 0.7)
+}
+
+
+.lightThemeBody {
+    background-color:rgba(226, 226, 226, 0.7)
+}
+
+.darkThemeHead {
+    background-color:rgba(17, 16, 16, 0.3)
+}
+
+
+.lightThemeHead {
+    background-color:rgba(223, 219, 219, 0.3)
+}
+
+.defaultThemeHeader {
+   background-color: #f8f9fa;
 }
