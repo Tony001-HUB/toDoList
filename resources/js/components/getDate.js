@@ -1,10 +1,12 @@
 function getDate() {
-    let d = new Date();
-    let curr_date = d.getDate();
-    let curr_month = d.getMonth() + 1;
-    let curr_year = d.getFullYear();
-    let data = curr_year + "-" + curr_month + "-" + curr_date;
-    return data;
+    document.querySelector('.btn-primary-add').addEventListener('click', e => {
+        const d = new Date();
+        const day = d.getDate();
+        const month = d.getMonth() + 1;
+        const year = d.getFullYear();
+        const date = year + "-" + month + "-" + day;
+        document.querySelector('#date-add-task').value = date;
+    })
 }
 
 export {getDate}

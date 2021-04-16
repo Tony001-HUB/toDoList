@@ -7,6 +7,8 @@
 
 .contacts{
     position: relative;
+    height: 200px;
+    width: 130px;
 }
 
 .contacts_none {
@@ -14,8 +16,14 @@
     position: relative;
 }
 
+
 .contacts__input{
-    color:rgb(0, 0, 0);
+    color:rgb(156, 37, 37);
+    width: 100%;
+    margin-bottom: 10px;
+    border: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(189, 19, 19, 0.5);
 }
 
 .contacts__text{
@@ -37,6 +45,13 @@
     position: absolute;
     right: 475px;
     z-index:37;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    background-color: rgb(168, 119, 54);
+    border: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .none-edit-modal {
@@ -55,11 +70,16 @@
 }
 
 .canсel {
-    margin-left: 60px;
+    margin-left: 105px;
 }
 
 .contacts__input-priority {
     width: 100%;
+    color:rgb(156, 37, 37);
+    margin-bottom: 10px;
+    border: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(189, 19, 19, 0.5);
 }
 
 .contacts__input-date {
@@ -113,3 +133,4 @@
 .defaultThemeHeader {
    background-color: #f8f9fa;
 }
+

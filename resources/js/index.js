@@ -8,8 +8,10 @@ import upperSortByDate from "./components/upperSortByDate.js";
 import changeAppTheme from "../js/components/changeAppTheme.js";
 import lowerSortByDate from "../js/components/lowerSortByDate.js";
 import goBackFromSort from "../js/components/goBackFromSort.js";
+import {getDate} from "./components/getDate.js"
 
 function initToDoList() {
+    getDate();
     makeAllTask();
     getCountTask();
     bindPostData(document.querySelector('form'));
@@ -22,3 +24,4 @@ function initToDoList() {
     goBackFromSort();
 }
 initToDoList();
+

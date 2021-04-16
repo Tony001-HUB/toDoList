@@ -26,6 +26,7 @@ export default function lowerSortByDate() {
             </div>
         <div class="contacts contacts_none">
             <form class="contacts__action-form">
+            <div>
                 <div>
                     <input class="contacts__input contacts__input-title" type="text" name="taskTitle" placeholder="Title">
                 </div>
@@ -47,6 +48,7 @@ export default function lowerSortByDate() {
                 <a class="btn btn-primary send">send</a>
                 <a class="btn btn-primary canсel">canсel</a>
                 </div>
+            </div>
             </form>
         </div>
             <div class="dropdown m-2 dropleft">

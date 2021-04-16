@@ -28,15 +28,6 @@
       "id": 6
     },
     {
-      "taskTitle": "ИЗМЕ_НИЛ",
-      "taskText": "ТУТ",
-      "IsFinished": "false",
-      "gridRadios": "Low",
-      "date": "2021-04-15",
-      "color": "#ff6f00",
-      "id": 7
-    },
-    {
       "taskTitle": "121",
       "taskText": "555",
       "IsFinished": "true",
@@ -46,12 +37,12 @@
       "id": 8
     },
     {
-      "taskTitle": "121",
-      "taskText": "sdvsdv",
+      "taskTitle": "ИЗМЕ_НИЛ",
+      "taskText": "1111",
       "IsFinished": "false",
-      "gridRadios": "Medium",
-      "date": "2021-04-17",
-      "color": "#11f80d",
+      "gridRadios": "Low",
+      "date": "2021-04-15",
+      "color": "#2de52a",
       "id": 10
     },
     {
@@ -65,21 +56,30 @@
     },
     {
       "taskTitle": "121",
-      "taskText": "555",
-      "IsFinished": "false",
+      "taskText": "TEST",
+      "IsFinished": "true",
+      "gridRadios": "Low",
       "date": "2021-04-10",
-      "color": "#823030",
-      "gridRadios": "Medium",
+      "color": "#e2e605",
       "id": 13
     },
     {
-      "taskTitle": "sdvsdv",
-      "taskText": "sdvsdv",
+      "taskTitle": "test",
+      "taskText": "test",
       "IsFinished": "false",
-      "date": "2021-04-01",
-      "color": "#b75757",
+      "date": "2021-4-16",
+      "color": "#bc4eaf",
       "gridRadios": "Medium",
-      "id": 14
+      "id": 16
+    },
+    {
+      "taskTitle": "test___",
+      "taskText": "test___",
+      "IsFinished": "false",
+      "date": "2021-4-16",
+      "color": "#6f1f1f",
+      "gridRadios": "Medium",
+      "id": 17
     }
   ]
 }
