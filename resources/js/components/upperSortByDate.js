@@ -1,4 +1,7 @@
 import {getData} from "../services/getData.js";
+import deleteTask from "./deleteTask.js";
+import comletedTask from "./comletedTask.js";
+import editTask from "./editTask.js";
 
 export default function upperSortByDate() {
     document.querySelector(".max-sort").addEventListener('click', event => {
@@ -46,10 +49,23 @@ export default function upperSortByDate() {
                     </div>
                 </form>
             </div>
+                <div class="dropdown m-2 dropleft">
+                    <button class="btn btn-secondary h-100 init-work-with-task-btn" type="button" id="dropdownMenuItem1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-v" aria-hidden="true"></i>
+                    </button>
+                    <div class="dropdown-menu p-2 flex-column" aria-labelledby="dropdownMenuItem1">
+                        <button type="button" class="btn btn-success w-100">Complete</button>
+                        <button type="button" class="btn btn-info w-100 my-2">Edit</button>
+                        <button type="button" class="btn btn-delete btn-danger w-100">Delete</button>
+                    </div>
+                </div>
             </li>
             `)
         }
         }))
+        setTimeout(editTask, 1000);
+        setTimeout(comletedTask, 1000);
+        setTimeout(deleteTask, 1000);
     })
 }
 
